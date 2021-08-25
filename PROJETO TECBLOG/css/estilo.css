@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #D8D8D8;
+}
+
+
+#area-cabecalho{
+    background:  #FFBF00;
+    padding: 25px;
+    text-align: center;
+
+}
+
+
+
+#area-logo{
+
+    font-size: 2.5em;
+    color: #424242;
+}
+
+.branco{
+    color:#FFF;
+}
+
+#area-menu{
+    padding: 12px;
+
+}
+
+#area-principal{
+    width: 920px;
+    margin: 15px auto;
+    margin-bottom: 15px;
+    
+}
+#area-postagem{
+    width: 660px;
+    float: left;
+    
+}
+#area-lateral{
+    width: 240px;
+    float: right;
+
+}
+#rodape{
+    clear: both;
+    background: #A4A4A4;
+    text-align: center;
+    padding: 15px;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+
+
+
+
+#area-cabecalho a{
+    text-decoration: none;
+    padding: 8px 12px;
+    
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color: #FFF;
+    text-decoration: none;
+}
+
+#area-cabecalho a:hover{
+    color: #FFBF00;
+    background: #FFF;
+}   
+
+a{ 
+   text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:link, a:visited{
+    color: orange; 
+}
+
+h2{
+    color:orange;
+}
+
+h3{
+    padding: 5px;
+    background: #CCC;
+    color: gray;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: block;
+}
